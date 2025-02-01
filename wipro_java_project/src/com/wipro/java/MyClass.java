@@ -11,7 +11,7 @@ class MyClass {
     }
  
     public static void main(String[] args) {
-//    created the object for the class
+//    	creating the object for the class named MyClass
         MyClass obj = new MyClass();
 //      now calling the changeValue() method by passing 10 as parameter
         obj.changeValue(10);
