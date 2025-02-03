@@ -4,11 +4,11 @@
 package com.wipro.java.oops;
 
 /**
- * No constuctor
+ * No constructor
  * Getters have return value
  * Setters have no return value
  * properties are determined using private fields
- * values/behaviours are determined through setters
+ * values/behaviors are determined through setters
  * toString will convert the entire Employee class with properties and behaviors
  * POJO : plain old java object access through getter/setter
  * structure need to be same, Field should not be changed.
@@ -22,6 +22,7 @@ public class Employee {
 	private int employeeID; // This is employeeid
 	private float salary;   //This is employee salary
 	private String emailID; // This is employee email ID
+	private boolean isTaxApplicable;
 	
 //	Below are getter and setter methods for each member variable
 	public String getEmployeeName() {
@@ -48,8 +49,12 @@ public class Employee {
 	public void setEmailID(String emailID) {
 		this.emailID = emailID;
 	}
+	@Override
+	public String toString() {
+		return "Employee [employeeName=" + employeeName + ", employeeID=" + employeeID + ", salary=" + salary
+				+ ", emailID=" + emailID + "]";
+	}
 	
-	
-	
+
 
 }
