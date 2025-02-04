@@ -1,4 +1,4 @@
-package com.wipro.java.oops;
+package com.wipro.java.oops.library;
 
 public abstract class Library {
 	//abstract method implemented

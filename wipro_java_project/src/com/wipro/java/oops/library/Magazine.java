@@ -1,4 +1,4 @@
-package com.wipro.java.oops;
+package com.wipro.java.oops.library;
 
 public class Magazine extends Library{
 	
